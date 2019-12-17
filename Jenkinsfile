@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    envirnment{
+    environment{
         CC = 'clang'
     }
 
