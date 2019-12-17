@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'printenv'
                 sh 'mvn -B -DskipTests clean package' 
-                sh 'mvn install'
+                sh 'mvn clean install'
             }
         }
     }
